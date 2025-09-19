@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "addnt-at",
+  "version": "${version}",
+  "name": "addnt-at",
+  "description": "Makes figura ignore files beginning with @",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/addnt-at/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.solstice.addntAt.client.AddntAtClient"
+    ],
+    "main": [
+      "dev.solstice.addntAt.AddntAt"
+    ]
+  },
+  "mixins": [
+    "addnt-at.mixins.json"
+  ],
+  "depends": {}
+}
